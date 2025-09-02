@@ -24,7 +24,7 @@ function aumentaTamanho() {
 }
 
 const campoSenha = document.querySelector('#campo-senha');
-const checkbox = document.querySelectorAll('.checkbox'):
+const checkbox = document.querySelectorAll('.checkbox');
 
 for (i = 0; i < checkbox.length; i++) {
     checkbox[i].onclick = geraSenha;
